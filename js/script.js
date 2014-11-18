@@ -27,9 +27,6 @@ var makeTable = function(data) {
         //make cells and map for each category
         $tr.append(makeCell(row, 'providestatus', 'providedetails', 'provide_map'));
         $tr.append(makeCell(row, 'evidencestatus', 'evidencedetails', 'evidence_map'));
-        $tr.append(makeCell(row, 'judgesstatus', 'judgesdetails', 'judges_map'));
-        $tr.append(makeCell(row, 'fewerstatus', 'fewerdetails', 'fewer_map'));
-        $tr.append(makeCell(row, 'lawyersstatus', 'lawyersdetails', 'lawyers_map'));
        
         $table.append($tr);
         
