@@ -25,8 +25,8 @@ var makeTable = function(data) {
         $tr.append('<td class="state_name">' + row['state'] + '</td>' );
 
         //make cells and map for each category
-        $tr.append(makeCell(row, 'providestatus', 'providedetails', 'provide_map'));
-        $tr.append(makeCell(row, 'evidencestatus', 'evidencedetails', 'evidence_map'));
+        $tr.append(makeCell(row, 'upperstatus', 'upperdetails', 'upper_map'));
+        $tr.append(makeCell(row, 'dnastatus', 'dnadetails', 'dna_map'));
        
         $table.append($tr);
         
