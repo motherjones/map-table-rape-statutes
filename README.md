@@ -32,7 +32,7 @@ Update the .html, .js, and .css files with your new categories and statuses, and
 **In index.html:**
 
             <li class="key-item key-0"><b></b><span>Restrictions passed</span></li>
-            <li class="key-item key-1"><b></b><span>New restrictions passed but challenged in court</span></li>
+            <li class="key-item key-1"><b></b><span>New restrictions passed but exemption in court</span></li>
             <li class="key-item key-2"><b></b><span>No change</span></li>
 
 and every instance of:

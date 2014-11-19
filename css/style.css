@@ -21,21 +21,21 @@ td {
 }
 
 .key-0 b, .yes, svg .yes path, .yes, svg path.yes {
- background-color: #e6550d;
- fill: #e6550d;
+ background: rgba(166, 206, 227, 0.25); 
+ fill: rgba(166, 206, 227, .75); 
 }
 
-svg .challenged path, .challenged, svg path.challenged, .key-1 b {
- background-color: #fdae6b;
- fill: #fdae6b;
+svg .exemption path, .exemption, svg path.exemption, .key-1 b {
+ background: rgba(178, 223, 138, 0.25); 
+ fill: rgba(178, 223, 138, .75); 
 }
 
 .key-2 b, .no, svg path.no, svg .no path {
- background-color: #f9f9f9;
+ background-color: #eee;
  fill: #ddd;
 }
 
-.challenged, .yes, .no {
+.exemption, .yes, .no {
   text-align: center;
   border-right: 1px solid #ddd;
 }
